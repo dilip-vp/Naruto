@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+  <!-- <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.dnl.test.sample.TestGoogleSearch"/>
+    </classes>
+  </test> -->
+   <!-- Default test -->
+   <test name="Sprint1">  
+    
+     <classes>
+     <class name="com.dnl.test.sample.DenovoLabTest">
+      <methods>
+      <include name="testgui"/>
+      <!--   <include name="testGoogle" />
+         <include name="testDenovo" />
+          <include name="testUsername" />
+            <include name="testEmptyUsernameAndSignIn" />
+             <include name="testEmptyPasswordAndSignIn" />
+             <include name="testEmptyUsernameAndPassword"/>
+              <include name="testResetCreateNewClient" /> 
+				<include name="testCreateNewClient"/>        
+				      <include name="testRememberMe"/>  -->
+              
+      </methods>
+    </class>
+  <!--  <class name="com.dnl.test.milestone1.TestCasesOne">
+    <methods>
+    <include name="EnterTemplateNameAndSave"/>
+       <include name="EnterTemplateNameAndReset"/>
+      <include name="EnterTillBasicInfoAndSave"/>
+       <include name="EnterTillBasicInfoAndReset"/>
+        <include name="EnterTillBasicSettingsAndSave"/>
+         <include name="EnterTillBasicSettingsAndReset"/> 
+         <include name="EnterTillFraudDetectionAndSave"/>
+          <include name="EnterTillFraudDetectionAndReset"/>
+           <include name="EnterTemplateNameAndSaveThenEdit"/>
+            <include name="EnterTillBasicSettingsAndSaveThenEdit"/>
+             <include name="EnterTillFraudDetectionAndSaveThenEdit"/>
+              <include name="EnterTemplateNameAndSaveThenDelete"/>
+               <include name="EnterTillBasicInfoAndSaveThenDelete"/>
+                <include name="EnterTillBasicSettingsAndSaveThenDelete"/>
+                <include name="EnterTillFraudDetectionAndSaveThenDelete"/> 
+    </methods>
+    </class>-->
+  </classes>
+    
+  </test> 
+  
+</suite> <!-- Default suite -->
+  

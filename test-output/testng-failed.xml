@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.dnl.test.sample.DenovoLabTest">
+        <methods>
+          <include name="testUsername"/>
+          <include name="testGoogle"/>
+          <include name="testDenovo"/>
+          <include name="testEmptyPasswordAndSignIn"/>
+          <include name="testEmptyUsernameAndSignIn"/>
+          <include name="testResetCreateNewClient"/>
+          <include name="init"/>
+          <include name="test"/>
+          <include name="testEmptyUsernameAndPassword"/>
+          <include name="testCreateNewClient"/>
+          <include name="testRememberMe"/>
+        </methods>
+      </class> <!-- com.dnl.test.sample.DenovoLabTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
